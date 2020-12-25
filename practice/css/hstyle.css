@@ -1,0 +1,44 @@
+*{margin: 0 ;padding:0; box-sizing: border-box;}
+a{text-decoration: none;}
+.header .container{display: flex;justify-content: space-between; align-items: center;}
+.header ul li{display: inline-block; padding:10px}
+body{background-image: url(../img/spa.png);background-repeat: no-repeat;background-position: 100% 0%; background-size: 500px;}
+
+
+.btn{background-color: #ff817e; padding:10px 20px;display: inline-block;color:white;border-radius: 20px; border:0}
+
+
+.banner{background-image: url(../img/leaf.png);background-repeat: no-repeat; min-height: 500px;background-position-x: -5%; margin-bottom: 50px; }
+.container{width: 1024px;margin: 0 auto;}
+.bannercontainer{width: 50%;padding:50px 0px}
+.banner h3{color: #ff817e;padding-bottom: 20px;}
+.banner h1{color: black;font-size: 50px;line-height: 45px;padding-bottom: 40px;}
+.banner p{padding-bottom: 20px;}
+
+.feature ul{display: flex;justify-content:space-between ;}
+.feature li{width: 25%; list-style: none; position: relative;}
+.feature li>img{width:100%;}
+.imghover{position:absolute; top:0; left: 0; width:0%; height: 100%; background-color: #ff807e69; display:flex; align-items: center;justify-content: center; flex-direction: column; opacity: 0;transition:all ease-in 0.2s;}
+.feature li:hover .imghover{opacity:1;width :100%; }
+.feature h4{color:white; padding-top:20px;}
+
+.procedure{margin-bottom: 40px;}
+.procedure h1{font-size: 50px; padding-bottom:20px;text-align: center;}
+.procedure p {padding-bottom:40px;text-align: center; color:#888;}
+.procedure ul{display: flex;justify-content: space-between;}
+.procedure li{width:30%; list-style:none;border:solid 1px #e3e6ea; padding:10px;text-align: center;transition: all ease-in 0.2s;}
+.procedure li>img{width:100% ;}
+.procedure li:hover{box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);}
+.procedure .btn{background-color: #000;}
+.procedure li:hover .btn{background-color: #ff817e;}
+
+
+.appointment{display: flex; background-color: #fff9f8;}
+.appointment .appointment_form{width: 50%; padding:20px}
+.appointment .imgwrap{width:40%; margin-right: 20px;}
+.appointment .imgwrap img{width:100%}
+.form-group{margin-bottom: 15px;}
+.form-group .form-label{font-size: 11px; display: none; margin-bottom: 5px; }
+.form-group .form-control{border:0; border-bottom: solid 2px #eee; background-color: transparent; padding: 10px; width: 100%;}
+.appointment .row{display: flex; justify-content: space-between;}
+.appointment .row .form-group{width:50%; margin-right: 20px;}
